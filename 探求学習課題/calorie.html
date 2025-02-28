@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>カロリー計算ツール</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>カロリー計算ツール</h1>
+            <p>以下の食品を選んで、合計カロリーを計算しましょう!</p>
+            <form id="calorie-form">
+                <label>
+                    <input type="checkbox" name="food" value="400"> メロンパン(400kcal)
+                </label><br>
+                <label>
+                <input type="checkbox" name="food" value="370"> 焼きそば(370kcal)
+                </label><br>
+                <button type="button" id="calculate-button">合計カロリーを計算</button>
+            </form>
+            <h2>結果</h2>
+            <p id="result">選択された食品の合計カロリーがここに表示されます。</p>
+        </div>
+    </body>
+</html>
